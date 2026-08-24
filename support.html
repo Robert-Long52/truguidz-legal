@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — TruGuidz</title>
+<meta name="description" content="Support and contact information for the TruGuidz mobile app.">
+<style>
+  :root {
+    --bg: #f7f3ea;
+    --card: #ffffff;
+    --text: #2b2620;
+    --text-secondary: #6b6152;
+    --accent: #7a5230;
+    --border: #e3dbc9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c2118;
+      --card: #262c21;
+      --text: #f0ece1;
+      --text-secondary: #b3ab98;
+      --accent: #d3a86c;
+      --border: #3a4234;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  header {
+    margin-bottom: 32px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+  .subtitle {
+    color: var(--text-secondary);
+    font-size: 0.98rem;
+    margin: 0;
+  }
+  main {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 8px 32px 32px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 32px 0 10px;
+    padding-top: 8px;
+  }
+  h2:first-of-type { margin-top: 24px; }
+  p, li { font-size: 0.98rem; color: var(--text); }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .contact-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 8px 0 24px;
+  }
+  .contact-card .icon {
+    font-size: 1.6rem;
+  }
+  .contact-card a {
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .contact-card .label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0 0 2px;
+  }
+  footer {
+    max-width: 720px;
+    margin: 24px auto 0;
+    padding: 0 24px;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">TruGuidz</div>
+      <h1>Support</h1>
+      <p class="subtitle">Questions, issues, or feedback about the TruGuidz app — we're happy to help.</p>
+    </header>
+
+    <main>
+      <h2>Contact Us</h2>
+      <p>The fastest way to reach us is by email. We aim to respond within 1–2 business days.</p>
+      <div class="contact-card">
+        <span class="icon">✉️</span>
+        <div>
+          <p class="label">Email</p>
+          <a href="mailto:longrobert346@yahoo.com">longrobert346@yahoo.com</a>
+        </div>
+      </div>
+
+      <h2>Common Questions</h2>
+
+      <p><strong>How do I book a trip?</strong><br>
+      Browse listings on the Explore tab, open a trip you're interested in, and tap Book Now. Your card is authorized when you request a booking, but you're only charged once the guide confirms.</p>
+
+      <p><strong>When am I actually charged?</strong><br>
+      A booking request only becomes a real charge once the guide accepts it. If a guide declines, your card is never charged.</p>
+
+      <p><strong>How do refunds work?</strong><br>
+      If you cancel a confirmed (already-charged) booking, the amount is refunded automatically to your original payment method through Stripe.</p>
+
+      <p><strong>How do I become a guide?</strong><br>
+      Open the Guidz tab and follow the application flow — you'll be asked for a few details and a photo ID for manual verification.</p>
+
+      <p><strong>How do I message my guide or explorer?</strong><br>
+      Messaging unlocks automatically once a booking is confirmed. Look for the message icon on the Explore or Guidz tab, or open the booking directly.</p>
+
+      <p><strong>How do I delete my account?</strong><br>
+      Go to Settings and tap Delete Account. This permanently removes your personal information and signs you out everywhere.</p>
+
+      <p>Don't see your question here? Just email us — we're a small team and read every message.</p>
+    </main>
+
+    <footer>
+      TruGuidz — Find your next outdoor adventure
+    </footer>
+  </div>
+</body>
+</html>
