@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stripe Setup — TruGuidz</title>
+<style>
+  :root {
+    --bg: #f7f3ea;
+    --text: #2b2620;
+    --text-secondary: #6b6152;
+    --accent: #7a5230;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c2118;
+      --text: #f0ece1;
+      --text-secondary: #b3ab98;
+      --accent: #d3a86c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+  }
+  .box { max-width: 340px; }
+  .brand {
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+  p { font-size: 1.05rem; line-height: 1.5; margin: 0; }
+  .sub { color: var(--text-secondary); font-size: 0.9rem; margin-top: 10px; }
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="brand">TruGuidz</div>
+    <p id="message">You can close this tab and return to TruGuidz.</p>
+  </div>
+  <script>
+    // Stripe redirects here after a guide finishes (or bails out of) the
+    // hosted Connect onboarding flow. This lives on GitHub Pages rather
+    // than as a Supabase Edge Function specifically because Supabase's
+    // function gateway forces every function response to
+    // Content-Type: text/plain regardless of what the function itself
+    // sets -- confirmed live, it showed raw unstyled HTML source instead
+    // of a real page. A plain static site has no such restriction.
+    const status = new URLSearchParams(window.location.search).get('status');
+    if (status === 'refresh') {
+      document.getElementById('message').textContent =
+        "That link expired before you finished. Open TruGuidz and tap Connect with Stripe again to get a new one.";
+    }
+  </script>
+</body>
+</html>
