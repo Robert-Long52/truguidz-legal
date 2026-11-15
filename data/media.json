@@ -1,0 +1,77 @@
+{
+  "youtube": [
+    {
+      "id": "erELwXcBwac",
+      "title": "Free maps and scent cones on TruHuntz!!! #pennsylvania #bowhunting #hunting #truoutdoorz",
+      "published": "2026-11-12T17:40:08+00:00",
+      "url": "https://www.youtube.com/watch?v=erELwXcBwac",
+      "thumb": "img/media/yt-erELwXcBwac.jpg"
+    },
+    {
+      "id": "i9lZ2wpnXGE",
+      "title": "Summary of October #pennsylvania #bowhunting #hunting #truoutdoorz",
+      "published": "2026-11-11T18:43:05+00:00",
+      "url": "https://www.youtube.com/watch?v=i9lZ2wpnXGE",
+      "thumb": "img/media/yt-i9lZ2wpnXGE.jpg"
+    },
+    {
+      "id": "y2L-myGpeXw",
+      "title": "Go checkout TruHuntz for free mapping and scent cones!!! #pennsylvania #TruOutdoorz #saddlehunting",
+      "published": "2026-11-08T20:07:34+00:00",
+      "url": "https://www.youtube.com/watch?v=y2L-myGpeXw",
+      "thumb": "img/media/yt-y2L-myGpeXw.jpg"
+    },
+    {
+      "id": "pP4vnWgfFRU",
+      "title": "Check out TruGuidz on the AppStore now! #pennsylvania #hunting #deer #bowhunting #jesus",
+      "published": "2026-11-03T23:40:18+00:00",
+      "url": "https://www.youtube.com/watch?v=pP4vnWgfFRU",
+      "thumb": "img/media/yt-pP4vnWgfFRU.jpg"
+    },
+    {
+      "id": "L057k8kpfAQ",
+      "title": "WHY ARE THEY NOCTURNAL 🦌#trailcam #pennsylvania #bowhunting #deerseason",
+      "published": "2026-10-30T18:26:33+00:00",
+      "url": "https://www.youtube.com/watch?v=L057k8kpfAQ",
+      "thumb": "img/media/yt-L057k8kpfAQ.jpg"
+    },
+    {
+      "id": "F4xE1G10jAE",
+      "title": "Beyond Blessed 🦌#bowhunting  #pennsylvania #treatyoakrevival",
+      "published": "2026-10-30T17:59:38+00:00",
+      "url": "https://www.youtube.com/watch?v=F4xE1G10jAE",
+      "thumb": "img/media/yt-F4xE1G10jAE.jpg"
+    }
+  ],
+  "devto": [
+    {
+      "title": "Supabase email sign-in and a profiles table for iOS, done safely",
+      "description": "Almost every iOS app I start needs the same first hour of work: email sign-in, a place to keep...",
+      "url": "https://dev.to/truoutdoorz/supabase-email-sign-in-and-a-profiles-table-for-ios-done-safely-5b2o",
+      "published": "2026-11-15T20:42:16Z",
+      "minutes": 5,
+      "tags": [
+        "ios",
+        "swift",
+        "supabase",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "How to revoke Sign in with Apple tokens when deleting a Supabase account",
+      "description": "If your iOS app offers Sign in with Apple, Apple asks you to revoke the person's token when they...",
+      "url": "https://dev.to/truoutdoorz/how-to-revoke-sign-in-with-apple-tokens-when-deleting-a-supabase-account-9ml",
+      "published": "2026-11-11T01:49:32Z",
+      "minutes": 2,
+      "tags": [
+        "ios",
+        "swift",
+        "supabase",
+        "tutorial"
+      ]
+    }
+  ],
+  "reddit": [],
+  "reddit_user": "",
+  "updated": "2026-11-15T21:10:33Z"
+}

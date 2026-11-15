@@ -1,0 +1,78 @@
+{
+  "user": "Robert-Long52",
+  "repo_count": 5,
+  "repos": [
+    {
+      "name": "truguidz-legal",
+      "description": "",
+      "language": "HTML",
+      "stars": 0,
+      "pushed_at": "2026-11-12T21:12:00Z",
+      "url": "https://github.com/Robert-Long52/truguidz-legal"
+    },
+    {
+      "name": "swiftui-supabase-starter-kit",
+      "description": "TruKit: SwiftUI + Supabase starter kit / boilerplate for iOS. Auth, Sign in with Apple, account deletion, Stripe + StoreKit 2 + RevenueCat paywall, real-time MapKit.",
+      "language": "",
+      "stars": 1,
+      "pushed_at": "2026-11-11T16:55:22Z",
+      "url": "https://github.com/Robert-Long52/swiftui-supabase-starter-kit"
+    },
+    {
+      "name": "truguidz",
+      "description": "TruGuidz — a two-sided iOS marketplace connecting outdoor guides with explorers, built with SwiftUI, Supabase, and Stripe Connect.",
+      "language": "Swift",
+      "stars": 0,
+      "pushed_at": "2026-09-23T14:26:28Z",
+      "url": "https://github.com/Robert-Long52/truguidz"
+    },
+    {
+      "name": "truguidz-guide-portal",
+      "description": "TruGuidz Guide Portal — web dashboard for guides, sharing the same Supabase backend as the iOS app",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-09-23T14:19:45Z",
+      "url": "https://github.com/Robert-Long52/truguidz-guide-portal"
+    },
+    {
+      "name": "swiftui-ios-app",
+      "description": "iOS calorie/macro tracking app built in SwiftUI",
+      "language": "Swift",
+      "stars": 0,
+      "pushed_at": "2026-01-26T21:03:26Z",
+      "url": "https://github.com/Robert-Long52/swiftui-ios-app"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Swift",
+      "pct": 64.9
+    },
+    {
+      "name": "HTML",
+      "pct": 11.8
+    },
+    {
+      "name": "JavaScript",
+      "pct": 8.3
+    },
+    {
+      "name": "TypeScript",
+      "pct": 7.6
+    },
+    {
+      "name": "PLpgSQL",
+      "pct": 4.4
+    },
+    {
+      "name": "CSS",
+      "pct": 3.0
+    }
+  ],
+  "activity": {
+    "2026-11-11": 1,
+    "2026-11-12": 2
+  },
+  "commits_90d": 3,
+  "updated": "2026-11-15T21:10:33Z"
+}
