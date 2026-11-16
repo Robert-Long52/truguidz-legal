@@ -7,7 +7,7 @@
       "description": "",
       "language": "HTML",
       "stars": 0,
-      "pushed_at": "2026-11-15T21:18:23Z",
+      "pushed_at": "2026-11-15T21:18:38Z",
       "url": "https://github.com/Robert-Long52/truguidz-legal"
     },
     {
@@ -46,33 +46,34 @@
   "languages": [
     {
       "name": "Swift",
-      "pct": 64.9
-    },
-    {
-      "name": "HTML",
-      "pct": 11.8
+      "pct": 57.2
     },
     {
       "name": "JavaScript",
-      "pct": 8.3
+      "pct": 13.2
+    },
+    {
+      "name": "HTML",
+      "pct": 11.2
     },
     {
       "name": "TypeScript",
-      "pct": 7.6
-    },
-    {
-      "name": "PLpgSQL",
-      "pct": 4.4
+      "pct": 6.7
     },
     {
       "name": "CSS",
-      "pct": 3.0
+      "pct": 6.5
+    },
+    {
+      "name": "PLpgSQL",
+      "pct": 3.9
     }
   ],
   "activity": {
     "2026-11-11": 1,
-    "2026-11-12": 2
+    "2026-11-12": 2,
+    "2026-11-15": 1
   },
-  "commits_90d": 3,
-  "updated": "2026-11-15T21:18:37Z"
+  "commits_90d": 4,
+  "updated": "2026-11-16T06:27:18Z"
 }
