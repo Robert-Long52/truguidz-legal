@@ -1,6 +1,13 @@
 {
   "youtube": [
     {
+      "id": "hap-BPvqcZE",
+      "title": "Day 2 #pennsylvania #bowhunting #archery #truoutdoorz",
+      "published": "2026-11-18T00:05:12+00:00",
+      "url": "https://www.youtube.com/watch?v=hap-BPvqcZE",
+      "thumb": "img/media/yt-hap-BPvqcZE.jpg"
+    },
+    {
       "id": "pH_UN4XKRcU",
       "title": "Day 1 🦌 #pennsylvania #bowhunting #entrepreneurship",
       "published": "2026-11-16T14:51:01+00:00",
@@ -34,16 +41,20 @@
       "published": "2026-11-03T23:40:18+00:00",
       "url": "https://www.youtube.com/watch?v=pP4vnWgfFRU",
       "thumb": "img/media/yt-pP4vnWgfFRU.jpg"
-    },
-    {
-      "id": "L057k8kpfAQ",
-      "title": "WHY ARE THEY NOCTURNAL 🦌#trailcam #pennsylvania #bowhunting #deerseason",
-      "published": "2026-10-30T18:26:33+00:00",
-      "url": "https://www.youtube.com/watch?v=L057k8kpfAQ",
-      "thumb": "img/media/yt-L057k8kpfAQ.jpg"
     }
   ],
   "devto": [
+    {
+      "title": "Can anyone explain how to actually market your apps cheaply!",
+      "description": "I've recently launched two apps plus a media page for outdoor enthusiasts and, as a broke college...",
+      "url": "https://dev.to/truoutdoorz/can-anyone-explain-how-to-actually-market-your-apps-cheaply-4oae",
+      "published": "2026-11-18T00:35:04Z",
+      "minutes": 1,
+      "tags": [
+        "explainlikeimfive",
+        "marketing"
+      ]
+    },
     {
       "title": "Supabase email sign-in and a profiles table for iOS, done safely",
       "description": "Almost every iOS app I start needs the same first hour of work: email sign-in, a place to keep...",
@@ -73,5 +84,5 @@
   ],
   "reddit": [],
   "reddit_user": "",
-  "updated": "2026-11-16T22:00:11Z"
+  "updated": "2026-11-18T07:27:00Z"
 }
