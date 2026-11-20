@@ -1,6 +1,13 @@
 {
   "youtube": [
     {
+      "id": "HjL2BvVN_IE",
+      "title": "Day 3 #pennsylvania #bowhunting #entrepreneur",
+      "published": "2026-11-20T16:08:05+00:00",
+      "url": "https://www.youtube.com/watch?v=HjL2BvVN_IE",
+      "thumb": "img/media/yt-HjL2BvVN_IE.jpg"
+    },
+    {
       "id": "hap-BPvqcZE",
       "title": "Day 2 #pennsylvania #bowhunting #archery #truoutdoorz",
       "published": "2026-11-18T00:05:12+00:00",
@@ -34,13 +41,6 @@
       "published": "2026-11-08T20:07:34+00:00",
       "url": "https://www.youtube.com/watch?v=y2L-myGpeXw",
       "thumb": "img/media/yt-y2L-myGpeXw.jpg"
-    },
-    {
-      "id": "pP4vnWgfFRU",
-      "title": "Check out TruGuidz on the AppStore now! #pennsylvania #hunting #deer #bowhunting #jesus",
-      "published": "2026-11-03T23:40:18+00:00",
-      "url": "https://www.youtube.com/watch?v=pP4vnWgfFRU",
-      "thumb": "img/media/yt-pP4vnWgfFRU.jpg"
     }
   ],
   "devto": [
@@ -84,5 +84,5 @@
   ],
   "reddit": [],
   "reddit_user": "",
-  "updated": "2026-11-18T07:27:00Z"
+  "updated": "2026-11-20T20:16:37Z"
 }
